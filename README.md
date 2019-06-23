@@ -130,3 +130,7 @@ object ReactiveStreamsSubscriberSample extends scalaz.zio.DefaultRuntime {
 今回は`AWS Lambda Java Core Library`と`Reactive Streams`を`ZIO`と組み合わせる方法を紹介しました。
 
 `Runtime`をミックスインする方法、`runtime`メソッドで`Runtime`インスタンスにアクセスする方法を利用すると、既存コードを部分的にZIOを導入することができお勧めです。
+
+# 参考
+
+- [コード@github](https://github.com/mitsutaka-takeda/zio-with-non-functional-framework)
